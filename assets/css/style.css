@@ -820,6 +820,7 @@ a {
     padding-bottom: 2rem;
 }
 
+
 /*SHOW MENU*/
 .show-menu {
     bottom: 0;
@@ -845,6 +846,12 @@ a {
 
     .nav_list {
         column-gap: 0;
+    }
+    .home_blob {
+        position: relative;
+        width: 180px;
+        top: 35%;
+        right: -40%;
     }
     .qualification_data {
         gap: .5rem;
@@ -885,6 +892,7 @@ a {
     body {
         margin: 0;
     }
+
     .header {
         top: 0;
         bottom: initial;
@@ -912,6 +920,9 @@ a {
 
     .change-theme {
         margin: 0;
+    }
+    .home_blob {
+        width: 270px;
     }
 
     .section {
@@ -1074,12 +1085,16 @@ a {
     .home_img {
         right: 5%;
     }
+    .home_blob {
+        width: 320px;
+    }
     .services_container {
         grid-template-columns: repeat(3, 238px);
     }
     .certificate__content {
         column-gap: 5rem;
     }
+  
 
     .swiper-certificate-icon {
         font-size: 3.5rem;
